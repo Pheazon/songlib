@@ -47,6 +47,12 @@ public class editController {
 
     public void saveData(javafx.event.ActionEvent event) throws Exception
     {
+
+        sname.setText((sname.getText()).trim());
+        yname.setText((yname.getText()).trim());
+        alname.setText((alname.getText()).trim());
+        arname.setText((arname.getText()).trim());
+
         boolean SongTrue = true;
 
         for (int i = 0; i < yname.getText().length(); i++) {
@@ -96,7 +102,7 @@ public class editController {
             }
             for (int i =0; i< arraylist.size();i++)
             {
-                if (i != index && arraylist.get(i).name.toUpperCase().equals(temp2.name.toUpperCase()) && arraylist.get(i).name.toUpperCase().equals(temp2.name.toUpperCase()))
+                if (i != index && arraylist.get(i).name.toUpperCase().equals(temp2.name.toUpperCase()) && arraylist.get(i).artist.toUpperCase().equals(temp2.artist.toUpperCase()))
                 {
                     Alert duplicate = new Alert(Alert.AlertType.INFORMATION);
                     duplicate.setContentText("The song and artist names already exist!");

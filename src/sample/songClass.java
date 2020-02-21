@@ -55,7 +55,7 @@ public class songClass
     }
     public String toString2()
     {
-        return  name + "      "+
+        return  name + "               "+
                 artist ;
     }
 //    public boolean add(String name, String artist, String album, String year) {

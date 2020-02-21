@@ -5,8 +5,8 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.editController">
    <children>
-      <Label layoutX="63.0" layoutY="154.0" prefHeight="35.0" prefWidth="100.0" text="Enter Song name" />
-      <Label layoutX="66.0" layoutY="269.0" text="Enter Artist name" />
+      <Label layoutX="63.0" layoutY="154.0" prefHeight="35.0" prefWidth="100.0" text="*Enter Song name" />
+      <Label layoutX="66.0" layoutY="269.0" text="*Enter Artist name" />
       <Label layoutX="331.0" layoutY="163.0" text="Enter Album name" />
       <Label layoutX="331.0" layoutY="269.0" text="Enter Year" />
       <TextField fx:id="sname" layoutX="163.0" layoutY="158.0" prefHeight="27.0" prefWidth="86.0" />

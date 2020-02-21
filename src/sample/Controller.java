@@ -15,6 +15,7 @@ import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
 
 import java.io.*;
+import java.time.Year;
 import java.util.*;
 
 import org.json.simple.JSONArray;
@@ -179,6 +180,13 @@ public class Controller {
     }
 
     public void Add(ActionEvent e) throws IOException {
+
+        SongTextField.setText((SongTextField.getText()).trim());
+        ArtistTextField.setText((ArtistTextField.getText()).trim());
+        AlbumTextField.setText((AlbumTextField.getText()).trim());
+        YearTextField.setText((YearTextField.getText()).trim());
+
+
         boolean SongTrue = true;
         int index = listview1.getItems().size();
         if (SongTextField.getText().isEmpty() || ArtistTextField.getText().isEmpty()) {
@@ -187,6 +195,8 @@ public class Controller {
             addAlert.show();
             return;
         }
+
+
         for (int i = 0; i < YearTextField.getText().length(); i++) {
             if (!Character.isDigit(YearTextField.getText().charAt((i)))) {
                 SongTrue = false;

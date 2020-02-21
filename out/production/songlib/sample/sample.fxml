@@ -25,7 +25,7 @@
             <items>
                 <AnchorPane id="anchorPane1" fx:id="anchorPane1" minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
                     <children>
-                        <ListView id="listview1" fx:id="listview1" prefHeight="263.0" prefWidth="275.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="650.0" AnchorPane.topAnchor="0.0" />
+                        <ListView id="listview1" fx:id="listview1" layoutY="23.0" prefHeight="241.0" prefWidth="275.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="650.0" AnchorPane.topAnchor="23.0" />
                         <Label fx:id="songLabel" layoutX="332.0" layoutY="65.0" text="Song" />
                         <Label fx:id="artistLabel" layoutX="644.0" layoutY="65.0" text="Artist" />
                         <Label fx:id="albumLabel" layoutX="332.0" layoutY="170.0" text="Album" />
@@ -34,6 +34,8 @@
                         <Label fx:id="artistShow" layoutX="730.0" layoutY="65.0" />
                         <Label fx:id="albumShow" layoutX="403.0" layoutY="171.0" />
                         <Label fx:id="yearShow" layoutX="745.0" layoutY="180.0" />
+                  <Label layoutX="78.0" layoutY="1.0" prefHeight="25.0" prefWidth="79.0" text="Artist Name" />
+                  <Label layoutY="5.0" text="Song Name" />
                     </children></AnchorPane>
                 <AnchorPane id="anchorPane2" fx:id="anchorPane2" minHeight="0.0" minWidth="0.0" prefHeight="54.0" prefWidth="925.0">
                     <children>
