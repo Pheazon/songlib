@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <varelement var="jar://$USER_HOME$/json-simple-3.1.1.jar!/" value="USER_HOME/json-simple-3.1.1.jar" />
+    <varelement var="jar://$USER_HOME$/json-simple-1.1.1.jar!/" value="USER_HOME/json-simple-1.1.1.jar" />
+    <src_description expected_position="0" />
+  </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
@@ -12,6 +17,16 @@
       <library>
         <CLASSES>
           <root url="jar://$USER_HOME$/Downloads/javafx-sdk-11.0.2/json-simple-1.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="javafx-swt1" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/json-simple-1.1.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

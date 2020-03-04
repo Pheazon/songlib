@@ -75,7 +75,6 @@ public class Controller {
 
                 String line;
                 while (a.hasNext()) {
-                    //List<String> list = Arrays.asList(line.split(","));
                     arraylist.add(new songClass(a.next(), b.next(), c.next(), d.next()));
 
 
@@ -212,7 +211,7 @@ public class Controller {
         }
         Alert confirmAdd = new Alert(AlertType.INFORMATION);
         confirmAdd.setTitle("Confirmation Dialog");
-        confirmAdd.setHeaderText("Look, a Confirmation Dialog");
+        //confirmAdd.setHeaderText("Look, a Confirmation Dialog");
         confirmAdd.setContentText("Are you ok with this?");
 
         Optional<ButtonType> result = confirmAdd.showAndWait();
@@ -287,6 +286,7 @@ public class Controller {
 
         Scene scene = new Scene(root);
         mainStage.setScene(scene);
+        mainStage.setResizable(false);
         mainStage.show();
     }
     public void EditResult(ObservableList<String> obsList, Stage mainStage, ArrayList<songClass> arraylist, int index)

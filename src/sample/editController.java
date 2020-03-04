@@ -97,6 +97,7 @@ public class editController {
 
                 Scene scene = new Scene(root);
                 mainStage.setScene(scene);
+                mainStage.setResizable(false);
                 mainStage.show();
                 return;
             }

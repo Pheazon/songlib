@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a4cef8d-64aa-40c2-9894-40fd47c9f5d5" name="Default Changelist" comment="" />
+    <list default="true" id="1a4cef8d-64aa-40c2-9894-40fd47c9f5d5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javafx_swt1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/songlib/sample/Controller$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/songlib/sample/Controller$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/songlib/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/songlib/sample/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/songlib/sample/SongLib.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/songlib/sample/SongLib.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/songlib/sample/editController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/songlib/sample/editController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/songlib/sample/songClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/songlib/sample/songClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/songlib/sample/sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/songlib/sample/sort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/songlib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/songlib.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/SongLib.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/SongLib.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/editController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/editController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +32,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/javafx-sdk-11.0.2/json-simple-1.1.1.jar!/" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -27,7 +42,7 @@
     <configuration name="SongLib" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sample.SongLib" />
       <module name="songlib" />
-      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\vansh\Downloads\javafx-sdk-11.0.2\lib&quot; --add-modules javafx.controls,javafx.fxml " />
+      <option name="VM_PARAMETERS" value="--module-path $USER_HOME$/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="sample.*" />
@@ -58,34 +73,40 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="140" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582323077423">
-      <screen x="0" y="0" width="1368" height="872" />
+    <state x="196" y="146" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582325520944">
+      <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state x="140" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1368.872@0.0.1368.872" timestamp="1582323077423" />
+    <state x="196" y="146" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1177@0.23.1920.1177" timestamp="1582325520944" />
     <state x="388" y="178" key="FileChooserDialogImpl" timestamp="1582322971079">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="388" y="178" key="FileChooserDialogImpl/0.0.1368.872@0.0.1368.872" timestamp="1582322971079" />
-    <state width="1326" height="227" key="GridCell.Tab.0.bottom" timestamp="1582324368361">
-      <screen x="0" y="0" width="1368" height="872" />
+    <state width="1878" height="328" key="GridCell.Tab.0.bottom" timestamp="1583252455876">
+      <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state width="1326" height="227" key="GridCell.Tab.0.bottom/0.0.1368.872@0.0.1368.872" timestamp="1582324368361" />
-    <state width="1326" height="227" key="GridCell.Tab.0.center" timestamp="1582324368360">
-      <screen x="0" y="0" width="1368" height="872" />
+    <state width="1878" height="328" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1583252455876" />
+    <state width="1878" height="328" key="GridCell.Tab.0.center" timestamp="1583252455876">
+      <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state width="1326" height="227" key="GridCell.Tab.0.center/0.0.1368.872@0.0.1368.872" timestamp="1582324368360" />
-    <state width="1326" height="227" key="GridCell.Tab.0.left" timestamp="1582324368360">
-      <screen x="0" y="0" width="1368" height="872" />
+    <state width="1878" height="328" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1583252455876" />
+    <state width="1878" height="328" key="GridCell.Tab.0.left" timestamp="1583252455875">
+      <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state width="1326" height="227" key="GridCell.Tab.0.left/0.0.1368.872@0.0.1368.872" timestamp="1582324368360" />
-    <state width="1326" height="227" key="GridCell.Tab.0.right" timestamp="1582324368361">
-      <screen x="0" y="0" width="1368" height="872" />
+    <state width="1878" height="328" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1583252455875" />
+    <state width="1878" height="328" key="GridCell.Tab.0.right" timestamp="1583252455876">
+      <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state width="1326" height="227" key="GridCell.Tab.0.right/0.0.1368.872@0.0.1368.872" timestamp="1582324368361" />
-    <state x="165" y="10" key="SettingsEditor" timestamp="1582322975203">
-      <screen x="0" y="0" width="1368" height="872" />
+    <state width="1878" height="328" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1583252455876" />
+    <state x="232" y="36" key="SettingsEditor" timestamp="1582325432173">
+      <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state x="165" y="10" key="SettingsEditor/0.0.1368.872@0.0.1368.872" timestamp="1582322975203" />
+    <state x="232" y="36" key="SettingsEditor/0.23.1920.1177@0.23.1920.1177" timestamp="1582325432173" />
     <state x="380" y="260" key="com.intellij.ide.util.TipDialog" timestamp="1582322864886">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
